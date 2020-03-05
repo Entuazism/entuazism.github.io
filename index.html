@@ -38,11 +38,13 @@ $(window).load(function() {
 });
 </script>
 	
- <script type="text/javascript">$('#menu3').load('menu.html');</script>
+ 
 
 </head>
 <body>
-
+<script type="text/javascript">$('#menu3').load('menu.html',function(){
+              alert('Done!');
+          });</script>
 <button id="loadtext">text</button>
 <button id="loadpage">page</button>
     
