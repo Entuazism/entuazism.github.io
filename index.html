@@ -43,6 +43,37 @@ $(window).load(function() {
 </head>
 <body>
 
+<button id="loadtext">text</button>
+<button id="loadpage">page</button>
+    
+    <div id="loader">
+    
+    </div>
+    
+
+    <script>
+     
+  $(document).ready(function(){
+      
+      $('#loadtext').click(function(){
+             $('#loader').load('menu.html',function(){
+              alert('Done!');
+          });
+      });
+      
+  });
+             
+  $(document).ready(function(){
+      
+      $('#loadpage').click(function(){
+             $('#loader').load('menu.html',function(){
+              alert('Done!');
+          });
+      });
+      
+  });
+    
+    </script>
 <div id="templatemo_wrapper">
 	<div id="templatemo_header">
     	
