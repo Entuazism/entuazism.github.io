@@ -38,8 +38,12 @@ $(window).load(function() {
 });
 </script>
 	
- 
-
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$( "#inject" ).load( "test.html" );
+	});
+</script>
+	
 </head>
 <body>
 
@@ -79,29 +83,7 @@ $(window).load(function() {
 		 
 	
     <div id="templatemo_main">
-    	<div class="col_w960">
-            <div class="col_w450 float_l">
-            	
-            </div>
-            
-            <div class="col_w450 float_r">
-           	  	
-            </div>
-            
-            <div class="cleaner"></div>
-		</div>
-        
-        <div class="col_w960 col_last">
-          	<div class="col_allw300 frontpage_box">
-	            
-        	</div>
-            <div class="col_allw300 frontpage_box">
-                
-            </div>
-            <div class="col_allw300 frontpage_box col_last">
-				
-            </div>
-        	<div class="cleaner"></div>
+    	<div class = "inject"></div>
         </div>
         
     </div> <!-- end of main -->
