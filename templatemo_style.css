@@ -30,7 +30,7 @@ p { margin: 0 0 10px 0; padding: 0; }
 img { border: none; }
 em { color: #000; font-weight: bold; font-style: normal }
 
-h1, h2, h3, h4, h5, h6 { color: #02b6d6; font-weight: normal; }
+h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
 h1 { font-size: 28px; margin: 0 0 20px 0; padding: 5px 0; }
 h2 { font-size: 25px; margin: 0 0 15px 0; padding: 5px 0; }
 h3 { font-size: 22px; margin: 0 0 15px; padding: 0; }
@@ -131,8 +131,10 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 #templatemo_middle { 
 	clear: both;
 	width: 960px;
-	height: 229px;
-	padding: 30px;
+	/*height: 229px;
+	padding: 30px;*/
+	height: 0px;
+	padding: 0px;
 	background: url(images/templatemo_middle.png) no-repeat
 }
 
