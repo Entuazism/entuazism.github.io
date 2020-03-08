@@ -41,3 +41,31 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+'''
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Тег CODE</title>
+ </head>  
+ <body> 
+
+  <p>Код программы</p>
+  <p><code>
+    function checkParent (src, dest) {<Br>
+     while (src != null) {<Br>
+       if (src.tagName == dest) return src<Br>
+        src = src.parentElement<Br>
+     }<Br>
+     return null<Br>
+    }</code></p>
+
+ </body>
+</html>
+'''
+
+Тег <code> предназначен для отображения одной или нескольких строк текста, который представляет собой программный код. Сюда относятся имена переменных, ключевые слова, тексты функции и т.д. Браузеры обычно отображают содержимое контейнера <code> как моноширинный текст уменьшенного размера.
+
+В отличие от тега <pre> дополнительные пробелы внутри контейнера <code> не учитываются, так же, как и переносы текста. Поэтому используйте тег <br> или <p> для создания переносов.
