@@ -43,7 +43,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-'''
+```
 <!DOCTYPE HTML>
 <html>
  <head>
@@ -64,7 +64,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
  </body>
 </html>
-'''
+```
 
 Тег <code> предназначен для отображения одной или нескольких строк текста, который представляет собой программный код. Сюда относятся имена переменных, ключевые слова, тексты функции и т.д. Браузеры обычно отображают содержимое контейнера <code> как моноширинный текст уменьшенного размера.
 
