@@ -64,13 +64,14 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 
 #templatemo_wrapper {
 	/*width: 1020px;*/
-	width: 10%;
+	width: 58%;
 	margin: 0 auto;
 	padding: 10px 0;
 }
 
 #templatemo_header {
 	/*width: 1020px;*/
+	width: inherit;
 	height: 87px;
 	background: url(images/templatemo_header.png) no-repeat
 }
@@ -84,7 +85,8 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 /* menu */
 #templatemo_menu {
 	clear: both;
-	width: 720px;
+	/*width: 720px;*/
+	width: inherit;
 	height: 52px;
 	padding: 0 0 0 300px;
 	background: url(images/templatemo_menu.png) no-repeat
@@ -131,7 +133,8 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 
 #templatemo_middle { 
 	clear: both;
-	width: 960px;
+	/*width: 960px;*/
+	width: inherit;
 	height: 229px;
 	padding: 30px;
 	background: url(images/templatemo_middle.png) no-repeat
@@ -166,19 +169,22 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 /* end of slider */
 
 #templatemo_main_top {
-	width: 1020px;
+	/*width: 1020px;*/
+	width: inherit;
 	height: 51px;
    background: url(images/templatemo_content_top.png) no-repeat
 }
 
 #templatemo_main_bottom {
-	width: 1020px;
+	/*width: 1020px;*/
+	width: inherit;
 	height: 35px;
     background: url(images/templatemo_content_bottom.png)
 }
 #templatemo_main {
 	clear: both;
-	width: 960px;
+	/*width: 960px;*/
+	width: inherit;
 	padding: 30px;
 	background: #fff;
 }
