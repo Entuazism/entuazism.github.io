@@ -63,13 +63,14 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 .tmo_list li a:hover { color: #e98236 }
 
 #templatemo_wrapper {
-	width: 1020px;
+	/*width: 1020px;*/
+	width: 58%;
 	margin: 0 auto;
 	padding: 10px 0;
 }
 
 #templatemo_header {
-	width: 1020px;
+	/*width: 1020px;*/
 	height: 87px;
 	background: url(images/templatemo_header.png) no-repeat
 }
