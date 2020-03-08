@@ -178,7 +178,6 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 #templatemo_main {
 	clear: both;
 	width: 960px;
-	width: inherit;
 	padding: 30px;
 	background: #fff;
 }
