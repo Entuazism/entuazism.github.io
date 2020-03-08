@@ -73,7 +73,8 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 	/*width: 1020px;*/
 	width: inherit;
 	height: 87px;
-	background: url(images/templatemo_header.png) no-repeat
+	background-size: contain; /*+++*/
+	background: url(images/templatemo_header.png) no-repeat	
 }
 
 #site_title { float: left; display: block; width: 225px; height: 87px; margin-left: 45px; }
@@ -89,6 +90,7 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 	width: inherit;
 	height: 52px;
 	padding: 0 0 0 300px;
+	background-size: contain; /*+++*/
 	background: url(images/templatemo_menu.png) no-repeat
 }
 
@@ -137,6 +139,7 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 	width: inherit;
 	height: 229px;
 	padding: 30px;
+	background-size: contain; /*+++*/
 	background: url(images/templatemo_middle.png) no-repeat
 }
 
@@ -172,6 +175,7 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 	/*width: 1020px;*/
 	width: inherit;
 	height: 51px;
+	background-size: contain; /*+++*/
    background: url(images/templatemo_content_top.png) no-repeat
 }
 
@@ -179,6 +183,7 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 	/*width: 1020px;*/
 	width: inherit;
 	height: 35px;
+	background-size: contain; /*+++*/
     background: url(images/templatemo_content_bottom.png)
 }
 #templatemo_main {
@@ -186,6 +191,7 @@ a.more:hover { text-decoration: none; color: #000; text-shadow: 1px 1px 1px #fff
 	/*width: 960px;*/
 	width: inherit;
 	padding: 30px;
+	background-size: contain; /*+++*/
 	background: #fff;
 }
 
