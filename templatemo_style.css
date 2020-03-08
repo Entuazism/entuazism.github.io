@@ -16,7 +16,7 @@ body {
 	background-position: top center	
 }
 
-@media handheld {
+@media all and (max-device-width:1500px) {
 	code{font-size: 22px; margin: 0 0 15px; padding: 0; }
 }
 
