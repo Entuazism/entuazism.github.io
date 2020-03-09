@@ -7,6 +7,7 @@ title: Start
   * [Markdown](#markdown)
   * [Jekyll Themes](#jekyll-themes)
   * [Support or Contact](#support-or-contact)
+  ___
 
 ## Welcome to GitHub Pages
 
